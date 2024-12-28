@@ -25,7 +25,7 @@ yyaxis right
 axis([0 14 0 10])
 x3 = x2t(:,2)/10^9;
 y3 = x2t(:,3);
-plot(x3,y3,'k:','LineWidth',1.5)
+plot(x3,y3,'k:','LineWidth',2)
 hold on
 texty=('$ z(t) $');
 ylabel(texty,'Interpreter','latex','fontsize',sf)
